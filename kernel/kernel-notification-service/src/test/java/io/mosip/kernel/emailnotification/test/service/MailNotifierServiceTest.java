@@ -6,6 +6,7 @@ import static org.mockito.Mockito.verify;
 
 import javax.mail.internet.MimeMessage;
 
+import io.mosip.kernel.emailnotification.service.impl.EmailNotificationServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
