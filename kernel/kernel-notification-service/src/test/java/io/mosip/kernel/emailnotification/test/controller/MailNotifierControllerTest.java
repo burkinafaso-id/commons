@@ -4,6 +4,7 @@ import static org.hamcrest.CoreMatchers.isA;
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.when;
 
+import io.mosip.kernel.emailnotification.service.impl.EmailNotificationServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -18,7 +19,6 @@ import io.mosip.kernel.core.http.ResponseWrapper;
 import io.mosip.kernel.core.notification.spi.SMSServiceProvider;
 import io.mosip.kernel.emailnotification.controller.EmailNotificationController;
 import io.mosip.kernel.emailnotification.dto.ResponseDto;
-import io.mosip.kernel.emailnotification.service.impl.EmailNotificationServiceImpl;
 import io.mosip.kernel.emailnotification.test.NotificationTestBootApplication;
 
 @RunWith(SpringRunner.class)

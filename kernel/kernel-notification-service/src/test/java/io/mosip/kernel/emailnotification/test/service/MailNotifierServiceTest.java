@@ -21,7 +21,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import io.mosip.kernel.core.notification.spi.SMSServiceProvider;
 import io.mosip.kernel.emailnotification.exception.InvalidArgumentsException;
-import io.mosip.kernel.emailnotification.service.impl.EmailNotificationServiceImpl;
 import io.mosip.kernel.emailnotification.test.NotificationTestBootApplication;
 import io.mosip.kernel.emailnotification.util.EmailNotificationUtils;
 
